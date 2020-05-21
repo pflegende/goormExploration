@@ -1,0 +1,77 @@
+initial:
+[goorm](https://ide.goorm.io/container/new)
+on ff 68.7
+
+Docker initiate with jupy on ubu 14
+some other available, like: c, R, blank, Arduino, etc. 
+
+hint: connection to GitHub only if status is set to "private" otherwise GitHub not available (grey)
+
+and go: initial docker!                    = 23:46 21.05.2020
+"Container has been successfully created." = 23:52 21.05.2020
+Ubuntu 18.04 LTS, Python 3.7.4, pip 19.2.2, Jupyter 4.5.0, Django 2.2.4, Flask 
+https://ide.goorm.io/my/container/goormExploration_jup
+
+URL/Port = empty -> "set" Button
+Visibility:  If you configured SCM(Git, Github, BitBucket, SVN) settings when create this container ...
+goorm.Issue: - der Rest der Zeile ist nicht sichtbar! -
+
+SSH can be used when the container is running. This information will be updated every 10 seconds. 
+
+There is no environment variable registered.
+
+
+This configuration would only be revealed/applied to the root user.
+
+Changes in this configuration would be applied after IDE page refresh.
+
+# You can invite up to 3 people. 
+
+Workspace shared link
+    https://goor.me/BAK7K 
+    
+Terminal shared link
+    https://goor.me/2AVFN
+    
+
+Link condition
+    Available only if container owner is connecting
+    Regardless of container owner's connection
+
+Access option
+    Anyone
+    Any goorm User
+    Project Member
+
+actuely choice:
+    Any goorm user can get access. Sign-in is required.
+    changed: (nsg Window apears with ok-info "container changed")
+    Anyone can connect as a guest without sign-in.
+    
+Permission on invitation
+    Readonly
+    Editable (non-root) <-
+    Editable (root)
+
+# 2nd step
+"Terminal" button
+
+https://ide-run.goorm.io/terminal/goormExploration_jup?language=us
+tty apears
+
+prompt:
+"https://ide-run.goorm.io/terminal/goormExploration_jup?language=us"
+
+root@goorm:/workspace/goormExploration_jup(master)# uname -a
+Linux goorm 4.4.0-1107-aws #118-Ubuntu SMP Sun May 3 23:28:51 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+#3d step
+"notebook" = run container
+
+but looks otherwise as the jupy
+- no window for choice of lang
+- only terminal
+- all the ins are available from Terminal "2nd step"
+
+
+
