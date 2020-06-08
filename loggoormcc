@@ -1,0 +1,18 @@
+52.59.221.115
+Mon Jun  8 22:58:36 UTC 2020
+Linux goorm 4.4.0-1107-aws #118-Ubuntu SMP Sun May 3 23:28:51 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0  72292  6296 ?        Ss   22:53   0:00 /usr/sbin/sshd -D
+root        1044  0.1  0.4 565792 35756 ?        Ssl  22:55   0:00 /goorm/bin/node dist/server.js --port 66 --languageServers servers.yml
+root        1059  0.0  0.0 103852  7244 ?        Ss   22:55   0:00 sshd: root@pts/0
+root        1070  0.0  0.0  19928  3812 pts/0    Ss+  22:55   0:00 /bin/bash
+root        1092  0.0  0.0 103852  7212 ?        Ss   22:55   0:00 sshd: root@pts/2
+root        1123  0.0  0.0 103852  7104 ?        Ss   22:55   0:00 sshd: root@pts/3
+root        1124  0.0  0.0  19928  3756 pts/2    Ss+  22:55   0:00 /bin/bash
+root        1138  0.0  0.0 103852  7184 ?        Ss   22:55   0:00 sshd: root@pts/4
+root        1189  0.0  0.0  18504  3424 pts/3    Ss+  22:55   0:00 /bin/bash
+root        1190  0.0  0.0  18504  3332 pts/4    Ss+  22:55   0:00 /bin/bash
+root        1221  0.0  0.0 103852  7040 ?        Ss   22:55   0:00 sshd: root@pts/1
+root        1236  0.0  0.0  18632  3500 pts/1    Ss   22:55   0:00 /bin/bash
+root        1502  0.0  0.0  38092  3216 pts/1    R+   22:59   0:00 ps -aux
+/workspace/goormExploration

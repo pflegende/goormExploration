@@ -1,0 +1,108 @@
+52.59.221.115
+Mon Jun  8 22:58:36 UTC 2020
+Linux goorm 4.4.0-1107-aws #118-Ubuntu SMP Sun May 3 23:28:51 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0  72292  6296 ?        Ss   22:53   0:00 /usr/sbin/sshd -D
+root        1044  0.1  0.4 565792 35756 ?        Ssl  22:55   0:00 /goorm/bin/node dist/server.js --port 66 --languageServers servers.yml
+root        1059  0.0  0.0 103852  7244 ?        Ss   22:55   0:00 sshd: root@pts/0
+root        1070  0.0  0.0  19928  3812 pts/0    Ss+  22:55   0:00 /bin/bash
+root        1092  0.0  0.0 103852  7212 ?        Ss   22:55   0:00 sshd: root@pts/2
+root        1123  0.0  0.0 103852  7104 ?        Ss   22:55   0:00 sshd: root@pts/3
+root        1124  0.0  0.0  19928  3756 pts/2    Ss+  22:55   0:00 /bin/bash
+root        1138  0.0  0.0 103852  7184 ?        Ss   22:55   0:00 sshd: root@pts/4
+root        1189  0.0  0.0  18504  3424 pts/3    Ss+  22:55   0:00 /bin/bash
+root        1190  0.0  0.0  18504  3332 pts/4    Ss+  22:55   0:00 /bin/bash
+root        1221  0.0  0.0 103852  7040 ?        Ss   22:55   0:00 sshd: root@pts/1
+root        1236  0.0  0.0  18632  3500 pts/1    Ss   22:55   0:00 /bin/bash
+root        1502  0.0  0.0  38092  3216 pts/1    R+   22:59   0:00 ps -aux
+/workspace/goormExploration
+total 40
+drwxr-xr-x 3 root root 4096 Jun  8 23:00 .
+drwxr-xr-x 3 root root 4096 Jun  8 22:55 ..
+drwxrwxr-x 8 root root 4096 Jun  8 23:00 .git
+-rw-rw-r-- 1 root root 2125 Jun  8 22:54 J-goormExploration
+-rw-rw-r-- 1 root root 7048 Jun  8 22:54 LICENSE
+-rw-rw-r-- 1 root root  103 Jun  8 22:54 README.md
+-rw-rw-r-- 1 root root  611 Jun  8 22:55 goorm.manifest
+-rw-rw-r-- 1 root root 1351 Jun  8 23:00 loggoorm
+-rw-rw-r-- 1 root root 1351 Jun  8 23:00 loggoormcc
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+604: eth0@if605: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default 
+    link/ether 02:42:ac:11:00:10 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet 172.17.0.16/16 brd 172.17.255.255 scope global eth0
+       valid_lft forever preferred_lft forever
+http://ix.io/2oFW
+Filesystem      Size  Used Avail Use% Mounted on
+none            9.8G  322M  8.9G   4% /
+tmpfs            64M     0   64M   0% /dev
+tmpfs           3.8G     0  3.8G   0% /sys/fs/cgroup
+shm              64M     0   64M   0% /dev/shm
+/dev/nbd80p1    9.8G  322M  8.9G   4% /workspace
+/dev/nvme0n1p1   68G   60G  7.9G  89% /goorm
+tmpfs           3.8G     0  3.8G   0% /proc/acpi
+tmpfs           3.8G     0  3.8G   0% /proc/scsi
+tmpfs           3.8G     0  3.8G   0% /sys/firmware
+8.0K	./.git/objects/a4
+8.0K	./.git/objects/c2
+8.0K	./.git/objects/10
+8.0K	./.git/objects/d1
+8.0K	./.git/objects/21
+4.0K	./.git/objects/info
+8.0K	./.git/objects/5a
+8.0K	./.git/objects/0e
+4.0K	./.git/objects/pack
+68K	./.git/objects
+8.0K	./.git/refs/remotes/origin
+12K	./.git/refs/remotes
+8.0K	./.git/refs/heads
+4.0K	./.git/refs/tags
+28K	./.git/refs
+4.0K	./.git/branches
+44K	./.git/hooks
+8.0K	./.git/info
+8.0K	./.git/logs/refs/remotes/origin
+12K	./.git/logs/refs/remotes
+8.0K	./.git/logs/refs/heads
+24K	./.git/logs/refs
+32K	./.git/logs
+212K	./.git
+244K	.
+http://ix.io/2oFY
+ 23:24:21 up 11:01,  5 users,  load average: 0.30, 0.80, 2.30
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/0    172.17.0.1       22:55   28:53   0.00s  0.00s /bin/bash
+root     pts/1    172.17.0.1       22:55    5.00s  0.02s  0.00s w
+root     pts/2    172.17.0.1       22:55   28:52   0.00s  0.00s /bin/bash
+root     pts/3    172.17.0.1       22:55    5.00s  0.55s  0.55s /bin/bash
+root     pts/4    172.17.0.1       22:55   28:52   0.00s  0.00s /bin/bash
+Mon Jun  8 23:24:38 UTC 2020
+    1  cd /workspace/goormExploration; clear
+    2  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+    3  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;alias python=python3;alias pip=pip3;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+    4  cd /workspace/goormExploration; clear
+    5  htop
+    6  ps -aux
+    7  echo `curl ifconfig.me` > loggoorm
+    8  cat loggoorm 
+    9  date >> loggoorm 
+   10  uname -a >> loggoorm 
+   11  ps -aux >> loggoorm 
+   12  pwd >> loggoorm 
+   13  cp loggoorm loggoormcc 
+   14  ls -la >>loggoorm
+   15  cat loggoorm
+   16  ping -c 5 8.8.8.8 >> loggoorm
+   17  ip ad li
+   18  ip ad li >> loggoorm
+   19  cat loggoorm | curl -s -F 'f:1=<-' jor2:pjor2@ix.io | tee -a loggoorm  ;
+   20  df -h >> loggoorm
+   21  du -h >> loggoorm
+   22  cat loggoorm | curl -s -F 'f:1=<-' jor2:pjor2@ix.io | tee -a loggoorm  ;
+   23  w
+   24  w >> loggoorm
+   25  date >> loggoorm
+   26  history >> loggoorm
+http://ix.io/2oG2
