@@ -1,2 +1,2 @@
 # goormExploration
-Exploration usability, bandwith, speed, available tools or distros etc. of goormIDE
+Exploration usability, bandwith, speed, available tools or distros etc. of goormIDE.
